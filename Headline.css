@@ -1,0 +1,177 @@
+body{
+    background: #272727;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1{
+    font-size: 70px;
+    background: -webkit-linear-gradient(0deg, #14a76c 25%, #ffe400 33%, #ff652f 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main-title-div{
+    border-bottom: #747474 solid 5px;
+    border-top:  #747474 solid 5px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+
+.title{
+    font-size: 38px;
+}
+
+.title-div-trend{
+    border-bottom: solid 6px #14A76C;
+    padding-top: 20px;
+}
+
+.title-div-tech{
+    border-bottom: solid 6px #FFE400;
+    padding-top: 20px;
+}
+
+.title-div-business{
+    border-bottom: solid 6px #FF652F;
+    padding-top: 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+h4{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h6{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.top-bar{
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.trending{
+    color: #14A76C;
+    margin: 0 auto;
+}
+
+.trending-div{
+    border: solid 2px #14A76C;
+    margin: 2px;
+    margin-top: 15px;
+    align-content: center;
+    text-align: left;
+    word-wrap: break-word;
+    border-radius: 5px;
+}
+
+.technology{
+    color: #FFE400;
+    margin: 0 auto;
+}
+
+.technology-div{
+    border: solid 2px #FFE400;
+    margin: 2px;
+    margin-top: 15px;
+    word-wrap: break-word;
+    border-radius: 5px;
+}
+
+.business{
+    color: #FF652F;
+    margin: 0 auto;
+}
+
+.business-div{
+    border: solid 2px #FF652F;
+    margin: 2px;
+    margin-top: 15px;
+    word-wrap: break-word;
+    border-radius: 5px;
+}
+
+.acc-div{
+    margin: 10px;
+}
+
+.more_info{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Accordion Code */
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible_trend {
+    background-color: #747474;
+    color: #14A76C;
+    cursor: pointer;
+    padding: 0px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 18px;
+    border: #14A76C solid 1px;
+    border-radius: 4px;
+  }
+
+  .collapsible_tech {
+    background-color: #747474;
+    color: #FFE400;
+    cursor: pointer;
+    padding: 0px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 18px;
+    border: #FFE400 solid 1px;
+    border-radius: 4px;
+  }
+
+  .collapsible_business {
+    background-color: #747474;
+    color: #FF652F;
+    cursor: pointer;
+    padding: 0px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 18px;
+    border: #FF652F solid 1px;
+    border-radius: 4px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    word-wrap: break-word;
+    background-color: #5e5e5e;
+    border-radius: 4px;
+  }
+
+
+
+
+  
